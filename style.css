@@ -8,12 +8,12 @@ html {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
 }
 
 header {
     background-image: linear-gradient(to right, rgb(0, 0, 10), rgba(128, 123, 123, 0.514));
-    margin: 10px;
+    /* margin: 10px; */
     height: 100vh;
     margin-top: 0;
 }
@@ -25,7 +25,7 @@ nav {
     position: fixed;
     z-index: 1;
     top: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height: 8%;
     top: 0;
@@ -48,6 +48,20 @@ ul li {
     color: rgb(255, 235, 205);
     list-style-type: none;
     font-size: 16px;
+}
+
+.underline::after {
+    content: '';
+    height: 2px;
+    display: block;
+    width: 0;
+    background: rgba(153, 149, 149, 0.774);
+    transition: width 0.3s;
+
+}
+
+.underline:hover::after {
+    width: 100%;
 }
 
 #buy {
@@ -178,9 +192,9 @@ button {
 }
 
 .headlink:hover {
-    color: rgba(94, 90, 90, 0.5);
+    color: rgb(94, 90, 90);
     transition: 0.3s;
-    border: 1px solid rgba(94, 90, 90, 0.5);
+    border: 1px solid white;
 }
 
 .headlink {
@@ -191,11 +205,11 @@ button {
 }
 
 .headlink2 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
 }
 
 .headlink2:hover {
-    color: rgba(94, 90, 90, 0.5);
+    color: black;
     transition: 0.3s;
 }
 
@@ -205,7 +219,7 @@ button a {
 }
 
 button a:hover {
-    color: rgba(94, 90, 90, 0.5);
+    color: white;
     transition: 0.3s;
 }
 
@@ -215,7 +229,7 @@ button a:hover {
     position: relative;
 }
 
-#h2about {
+.h2about {
     /* position: relative; */
 
     display: flex;
@@ -225,16 +239,15 @@ button a:hover {
 
 }
 
-#pabout {
+.pabout {
     position: relative;
-    /* top: 12%; */
     display: flex;
     color: gray;
     justify-content: center;
     font-size: 21px;
 }
 
-#line {
+.line {
     border-top: 1px solid gray;
     width: 40%;
     position: absolute;
@@ -323,6 +336,72 @@ button a:hover {
     font-size: 17px;
     justify-content: space-around;
 }
+
+.port {
+    margin: 65px;
+}
+.port-cont{
+    display: flex;
+}
+.port-cont2{
+    transform: translate(5% , 20%);
+}
+.list ul {
+    max-width: 100%;
+    display: flex;
+    flex: 1;
+    margin: 22px;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.list ul li {
+    color: grey;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.list ul .active {
+    color: black;
+    cursor: pointer;
+}
+
+.img-wrap {
+    width: 80%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
+.img-wrap img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.letterK {
+    width: 10%;
+    margin-bottom: 40px;
+}
+
+.port-txt {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.koral{
+    color: grey;
+    margin-bottom: 40px;
+}
+.koralbtn{
+    background-color: black;
+}
+.koralbtn:hover{
+    background-color: blanchedalmond;
+    transition: 0.4s;
+    color: black;
+}
 @media screen and (max-width: 912px) {
     body {
         margin: 0;
@@ -398,7 +477,6 @@ button a:hover {
     .mobile-menu {
         display: none;
         position: fixed;
-        /* top: 5%; */
         right: 0%;
         z-index: 1;
         height: 70vh;
@@ -433,7 +511,8 @@ button a:hover {
         left: 10%;
         font-size: 19px;
     }
-    .buttons{
+
+    .buttons {
         display: flex;
         flex-direction: column;
     }
@@ -448,7 +527,7 @@ button a:hover {
         width: 250px;
     }
 
-    #h2about {
+    .h2about {
         position: relative;
         /* top: 3%; */
         display: flex;
@@ -456,7 +535,7 @@ button a:hover {
         font-size: 41px;
     }
 
-    #pabout {
+    .pabout {
         position: relative;
         top: 4%;
         display: flex;
@@ -465,11 +544,11 @@ button a:hover {
         font-size: 17px;
     }
 
-    #line {
+    .line {
         border-top: 1px solid gray;
-        width: 90%;
+        width: 70%;
         position: absolute;
-        left: 5%;
+        left: 14%;
         /* top: 10%; */
     }
 
@@ -517,7 +596,77 @@ button a:hover {
     .txtPara2 {
         font-size: 17px;
     }
+    .port {
+        margin: 0px;
+    }
+    .port-cont{
+       flex-direction: column;
+    }
+    .port-cont2{
+        transform: translate(0% , 0%);
+    }
+    .list ul {
+        max-width: 100%;
+        display: flex;
+        flex: 1;
+        margin: 0px;
+        justify-content: space-around;
+        padding: 18px;
+    }
+    
+    .list ul li {
+        color: grey;
+        margin-right: 12px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+    
+    .list ul .active {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .img-wrap {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    .img-wrap img {
+        width: 100%;
+    }
+    
+    .img-wrap img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .letterK {
+        width: 18%;
+        margin-bottom: 20px;
+    }
+    
+    .port-txt {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .koral{
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .koralbtn{
+        background-color: black;
+        transform: translateX(0%);
+    }
+    .koralbtn:hover{
+        background-color: blanchedalmond;
+        transition: 0.4s;
+        color: black;
+    }
 }
+
 @media screen and (max-width: 720px) {
     body {
         margin: 0;
@@ -593,12 +742,11 @@ button a:hover {
     .mobile-menu {
         display: none;
         position: fixed;
-        /* top: 5%; */
         right: 0%;
         z-index: 1;
-        height: 70vh;
+        /* height: 30vh; */
         padding: 100px;
-        width: 200vh;
+        width: 100%;
         opacity: 1;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
     }
@@ -628,7 +776,8 @@ button a:hover {
         left: 10%;
         font-size: 19px;
     }
-    .buttons{
+
+    .buttons {
         display: flex;
         flex-direction: column;
     }
@@ -643,7 +792,7 @@ button a:hover {
         width: 250px;
     }
 
-    #h2about {
+    .h2about {
         position: relative;
         /* top: 3%; */
         display: flex;
@@ -651,7 +800,7 @@ button a:hover {
         font-size: 41px;
     }
 
-    #pabout {
+    .pabout {
         position: relative;
         top: 4%;
         display: flex;
@@ -660,7 +809,7 @@ button a:hover {
         font-size: 17px;
     }
 
-    #line {
+    .line {
         border-top: 1px solid gray;
         width: 90%;
         position: absolute;
@@ -711,6 +860,75 @@ button a:hover {
 
     .txtPara2 {
         font-size: 17px;
+    }
+    .port {
+        margin: 0px;
+    }
+    .port-cont{
+       flex-direction: column;
+    }
+    .port-cont2{
+        transform: translate(0% , 0%);
+    }
+    .list ul {
+        max-width: 100%;
+        display: flex;
+        flex: 1;
+        margin: 0px;
+        justify-content: space-around;
+        padding: 18px;
+    }
+    
+    .list ul li {
+        color: grey;
+        margin-right: 12px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .list ul .active {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .img-wrap {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    .img-wrap img {
+        width: 100%;
+    }
+    
+    .img-wrap img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .letterK {
+        width: 18%;
+        margin-bottom: 20px;
+    }
+    
+    .port-txt {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .koral{
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .koralbtn{
+        background-color: black;
+        transform: translateX(0%);
+    }
+    .koralbtn:hover{
+        background-color: blanchedalmond;
+        transition: 0.4s;
+        color: black;
     }
 }
 
@@ -791,16 +1009,16 @@ button a:hover {
         position: fixed;
         /* top: 5%; */
         right: 0%;
-        z-index: 1;
+        /* z-index: 1; */
         height: 70vh;
         padding: 100px;
-        width: 200vh;
+        width: 100%;
         opacity: 1;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
     }
 
     #hamburger-icon div {
-        width: 45px;
+        width: 40px;
         height: 3px;
         background-color: white;
         margin: 6px 0;
@@ -826,16 +1044,16 @@ button a:hover {
     }
 
     .headlink {
-        left: 18%;
+        left: 15%;
         width: 250px;
     }
 
     .headlink2 {
-        left: 18%;
+        left: 15%;
         width: 250px;
     }
 
-    #h2about {
+    .h2about {
         position: relative;
         /* top: 3%; */
         display: flex;
@@ -843,7 +1061,7 @@ button a:hover {
         font-size: 41px;
     }
 
-    #pabout {
+    .pabout {
         position: relative;
         top: 4%;
         display: flex;
@@ -852,7 +1070,7 @@ button a:hover {
         font-size: 17px;
     }
 
-    #line {
+    .line {
         border-top: 1px solid gray;
         width: 90%;
         position: absolute;
@@ -870,7 +1088,7 @@ button a:hover {
 
 
     .imgone {
-        width: 70px;
+        width: 60px;
         left: 37%;
         /* animation: jump 1.5s infinite; */
     }
@@ -884,25 +1102,94 @@ button a:hover {
     }
 
     .imgtwo {
-        width: 70px;
+        width: 60px;
         left: 37%;
         /* animation: jump 1.5s 0.2s infinite; */
     }
 
     .txt1 {
-        font-size: 27px;
+        font-size: 22px;
     }
 
     .txtPara1 {
-        font-size: 17px;
+        font-size: 12px;
     }
 
     .txt2 {
-        font-size: 27px;
+        font-size: 22px;
     }
 
     .txtPara2 {
-        font-size: 17px;
+        font-size: 12px;
+    }
+    .port {
+        margin: 0px;
+    }
+    .port-cont{
+       flex-direction: column;
+    }
+    .port-cont2{
+        transform: translate(0% , 0%);
+    }
+    .list ul {
+        max-width: 100%;
+        display: flex;
+        flex: 1;
+        margin: 0px;
+        justify-content: space-around;
+        padding: 18px;
+    }
+    
+    .list ul li {
+        color: grey;
+        margin-right: 12px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .list ul .active {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .img-wrap {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    .img-wrap img {
+        width: 100%;
+    }
+    
+    .img-wrap img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .letterK {
+        width: 18%;
+        margin-bottom: 20px;
+    }
+    
+    .port-txt {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .koral{
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .koralbtn{
+        background-color: black;
+        transform: translateX(70%);
+    }
+    .koralbtn:hover{
+        background-color: blanchedalmond;
+        transition: 0.4s;
+        color: black;
     }
 
 }
@@ -993,7 +1280,7 @@ button a:hover {
     }
 
     #hamburger-icon div {
-        width: 45px;
+        width: 35px;
         height: 3px;
         background-color: white;
         margin: 6px 0;
@@ -1035,7 +1322,7 @@ button a:hover {
         margin: 0;
     }
 
-    #h2about {
+    .h2about {
         position: relative;
         /* top: 3%; */
         display: flex;
@@ -1043,7 +1330,7 @@ button a:hover {
         font-size: 30px;
     }
 
-    #pabout {
+    .pabout {
         position: relative;
         /* top: 4%; */
         display: flex;
@@ -1052,7 +1339,7 @@ button a:hover {
         font-size: 12px;
     }
 
-    #line {
+    .line {
         border-top: 1px solid gray;
         width: 90%;
         position: absolute;
@@ -1106,5 +1393,75 @@ button a:hover {
 
     .txtPara2 {
         font-size: 12px;
+    }
+    .port {
+        margin: 0px;
+    }
+    .port-cont{
+       flex-direction: column;
+    }
+    .port-cont2{
+        transform: translate(0% , 0%);
+    }
+    .list ul {
+        max-width: 100%;
+        display: flex;
+        flex: 1;
+        margin: 0px;
+        justify-content: space-around;
+        padding: 18px;
+    }
+    
+    .list ul li {
+        color: grey;
+        margin-right: 8px;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    
+    .list ul .active {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .img-wrap {
+        width: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    .img-wrap img {
+        width: 100%;
+    }
+    
+    .img-wrap img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .letterK {
+        width: 22%;
+        margin-bottom: 20px;
+    }
+    
+    .port-txt {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .koral{
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .koralbtn{
+        background-color: black;
+        transform: translateX(50%);
+        font-size: 12px;
+    }
+    .koralbtn:hover{
+        background-color: blanchedalmond;
+        transition: 0.4s;
+        color: black;
     }
 }
