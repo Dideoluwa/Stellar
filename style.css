@@ -338,12 +338,15 @@ button a:hover {
 .port {
     margin: 65px;
 }
-.port-cont{
+
+.port-cont {
     display: flex;
 }
-.port-cont2{
-    transform: translate(5% , 20%);
+
+.port-cont2 {
+    transform: translate(5%, 20%);
 }
+
 .list ul {
     max-width: 100%;
     display: flex;
@@ -388,18 +391,22 @@ button a:hover {
     font-size: 32px;
     margin-bottom: 30px;
 }
-.koral{
+
+.koral {
     color: grey;
     margin-bottom: 40px;
 }
-.koralbtn{
+
+.koralbtn {
     background-color: black;
 }
-.koralbtn:hover{
+
+.koralbtn:hover {
     background-color: blanchedalmond;
     transition: 0.4s;
     color: black;
 }
+
 @media screen and (max-width: 912px) {
     body {
         margin: 0;
@@ -594,15 +601,19 @@ button a:hover {
     .txtPara2 {
         font-size: 17px;
     }
+
     .port {
         margin: 0px;
     }
-    .port-cont{
-       flex-direction: column;
+
+    .port-cont {
+        flex-direction: column;
     }
-    .port-cont2{
-        transform: translate(0% , 0%);
+
+    .port-cont2 {
+        transform: translate(0%, 0%);
     }
+
     .list ul {
         max-width: 100%;
         display: flex;
@@ -611,54 +622,57 @@ button a:hover {
         justify-content: space-around;
         padding: 18px;
     }
-    
+
     .list ul li {
         color: grey;
         margin-right: 12px;
         font-size: 21px;
         cursor: pointer;
     }
-    
+
     .list ul .active {
         color: black;
         cursor: pointer;
     }
-    
+
     .img-wrap {
         width: 100%;
         overflow: hidden;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
+
     .img-wrap img {
         width: 100%;
     }
-    
+
     .img-wrap img:hover {
         transform: scale(1.1);
         transition: all 0.4s ease-in-out;
     }
-    
+
     .letterK {
         width: 18%;
         margin-bottom: 20px;
     }
-    
+
     .port-txt {
         font-size: 32px;
         margin-bottom: 10px;
     }
-    .koral{
+
+    .koral {
         color: grey;
         margin-bottom: 20px;
         font-size: 25px;
     }
-    .koralbtn{
+
+    .koralbtn {
         background-color: black;
         transform: translateX(0%);
     }
-    .koralbtn:hover{
+
+    .koralbtn:hover {
         background-color: blanchedalmond;
         transition: 0.4s;
         color: black;
@@ -859,15 +873,19 @@ button a:hover {
     .txtPara2 {
         font-size: 17px;
     }
+
     .port {
         margin: 0px;
     }
-    .port-cont{
-       flex-direction: column;
+
+    .port-cont {
+        flex-direction: column;
     }
-    .port-cont2{
-        transform: translate(0% , 0%);
+
+    .port-cont2 {
+        transform: translate(0%, 0%);
     }
+
     .list ul {
         max-width: 100%;
         display: flex;
@@ -876,54 +894,57 @@ button a:hover {
         justify-content: space-around;
         padding: 18px;
     }
-    
+
     .list ul li {
         color: grey;
         margin-right: 12px;
         font-size: 12px;
         cursor: pointer;
     }
-    
+
     .list ul .active {
         color: black;
         cursor: pointer;
     }
-    
+
     .img-wrap {
         width: 100%;
         overflow: hidden;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
+
     .img-wrap img {
         width: 100%;
     }
-    
+
     .img-wrap img:hover {
         transform: scale(1.1);
         transition: all 0.4s ease-in-out;
     }
-    
+
     .letterK {
         width: 18%;
         margin-bottom: 20px;
     }
-    
+
     .port-txt {
         font-size: 27px;
         margin-bottom: 10px;
     }
-    .koral{
+
+    .koral {
         color: grey;
         margin-bottom: 20px;
         font-size: 12px;
     }
-    .koralbtn{
+
+    .koralbtn {
         background-color: black;
         transform: translateX(0%);
     }
-    .koralbtn:hover{
+
+    .koralbtn:hover {
         background-color: blanchedalmond;
         transition: 0.4s;
         color: black;
@@ -1051,6 +1072,10 @@ button a:hover {
         width: 250px;
     }
 
+    .mainBody {
+        margin: 0;
+    }
+
     .h2about {
         position: relative;
         /* top: 3%; */
@@ -1120,15 +1145,19 @@ button a:hover {
     .txtPara2 {
         font-size: 12px;
     }
+
     .port {
         margin: 0px;
     }
-    .port-cont{
-       flex-direction: column;
+
+    .port-cont {
+        flex-direction: column;
     }
-    .port-cont2{
-        transform: translate(0% , 0%);
+
+    .port-cont2 {
+        transform: translate(0%, 0%);
     }
+
     .list ul {
         max-width: 100%;
         display: flex;
@@ -1137,54 +1166,57 @@ button a:hover {
         justify-content: space-around;
         padding: 18px;
     }
-    
+
     .list ul li {
         color: grey;
         margin-right: 12px;
         font-size: 12px;
         cursor: pointer;
     }
-    
+
     .list ul .active {
         color: black;
         cursor: pointer;
     }
-    
+
     .img-wrap {
         width: 100%;
         overflow: hidden;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
+
     .img-wrap img {
         width: 100%;
     }
-    
+
     .img-wrap img:hover {
         transform: scale(1.1);
         transition: all 0.4s ease-in-out;
     }
-    
+
     .letterK {
         width: 18%;
         margin-bottom: 20px;
     }
-    
+
     .port-txt {
         font-size: 27px;
         margin-bottom: 10px;
     }
-    .koral{
+
+    .koral {
         color: grey;
         margin-bottom: 20px;
         font-size: 12px;
     }
-    .koralbtn{
+
+    .koralbtn {
         background-color: black;
         transform: translateX(0%);
     }
-    .koralbtn:hover{
+
+    .koralbtn:hover {
         background-color: blanchedalmond;
         transition: 0.4s;
         color: black;
@@ -1392,15 +1424,19 @@ button a:hover {
     .txtPara2 {
         font-size: 12px;
     }
+
     .port {
         margin: 0px;
     }
-    .port-cont{
-       flex-direction: column;
+
+    .port-cont {
+        flex-direction: column;
     }
-    .port-cont2{
-        transform: translate(0% , 0%);
+
+    .port-cont2 {
+        transform: translate(0%, 0%);
     }
+
     .list ul {
         max-width: 100%;
         display: flex;
@@ -1409,55 +1445,58 @@ button a:hover {
         justify-content: space-around;
         padding: 18px;
     }
-    
+
     .list ul li {
         color: grey;
         margin-right: 8px;
         font-size: 8px;
         cursor: pointer;
     }
-    
+
     .list ul .active {
         color: black;
         cursor: pointer;
     }
-    
+
     .img-wrap {
         width: 100%;
         overflow: hidden;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
+
     .img-wrap img {
         width: 100%;
     }
-    
+
     .img-wrap img:hover {
         transform: scale(1.1);
         transition: all 0.4s ease-in-out;
     }
-    
+
     .letterK {
         width: 22%;
         margin-bottom: 20px;
     }
-    
+
     .port-txt {
         font-size: 27px;
         margin-bottom: 10px;
     }
-    .koral{
+
+    .koral {
         color: grey;
         margin-bottom: 20px;
         font-size: 12px;
     }
-    .koralbtn{
+
+    .koralbtn {
         background-color: black;
         transform: translateX(0%);
         font-size: 12px;
     }
-    .koralbtn:hover{
+
+    .koralbtn:hover {
         background-color: blanchedalmond;
         transition: 0.4s;
         color: black;
