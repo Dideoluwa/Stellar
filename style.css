@@ -544,6 +544,31 @@ button a:hover {
 .news1-container p {
     line-height: 1;
 }
+.socials{
+    margin-right: 65px;
+    margin-left: 65px;  
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.socials img{
+    width: 40px;
+    cursor: pointer;
+    padding: 25px;
+    transition: all ease-in-out 0.3s;
+}
+.socials img:hover{
+    padding: 28px;
+    transition: all ease-in-out 0.3s;
+}
+.social-wrap{
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+#pint{
+    border-right: none;
+}
 
 @media screen and (max-width: 912px) {
     body {
@@ -869,6 +894,7 @@ button a:hover {
         padding-right: 8px;
         transition: all ease-in-out 0.3s;
     }
+
     .blog {
         margin-right: 0px;
         margin-left: 0px;
@@ -877,7 +903,9 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
-
+    .blog p {
+        font-size: 15px;
+    }
     .news {
         display: flex;
         padding: 0px;
@@ -892,6 +920,7 @@ button a:hover {
         transition: all ease-in-out 0.4s;
         transform: translateX(20%);
     }
+
     .news2-img {
         margin-top: 70px;
         width: 260%;
@@ -899,6 +928,27 @@ button a:hover {
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
+    }
+    .socials{
+        margin-right: 0px;
+        margin-left: 0px;  
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    .socials img{
+        width: 45px;
+        cursor: pointer;
+        padding: 12px;
+        transition: all ease-in-out 0.3s;
+    }
+    .socials img:hover{
+        padding: 0px;
+    }
+    .social-wrap{
+        padding: 0px;
+        border-right: none;
     }
 }
 
@@ -1226,6 +1276,7 @@ button a:hover {
         padding-right: 8px;
         transition: all ease-in-out 0.3s;
     }
+
     .blog {
         margin-right: 0px;
         margin-left: 0px;
@@ -1234,13 +1285,14 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
-
+    .blog p {
+        font-size: 15px;
+    }
     .news {
         display: flex;
         padding: 0px;
         margin-top: 40px;
     }
-
 
     .news-img {
         width: 50%;
@@ -1249,6 +1301,7 @@ button a:hover {
         transition: all ease-in-out 0.4s;
         transform: translateX(20%);
     }
+
     .news2-img {
         margin-top: 70px;
         width: 230%;
@@ -1256,6 +1309,27 @@ button a:hover {
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
+    }
+    .socials{
+        margin-right: 0px;
+        margin-left: 0px;  
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    .socials img{
+        width: 35px;
+        cursor: pointer;
+        padding: 12px;
+        transition: all ease-in-out 0.3s;
+    }
+    .socials img:hover{
+        padding: 0px;
+    }
+    .social-wrap{
+        padding: 0px;
+        border-right: none;
     }
 }
 
@@ -1593,6 +1667,9 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
+    .blog p {
+        font-size: 11px;
+    }
 
     .news {
         display: flex;
@@ -1613,13 +1690,36 @@ button a:hover {
         transition: all ease-in-out 0.4s;
         width: 100%;
     }
+
     .news2-img {
         margin-top: 70px;
-        width: 190%;
+        width: 260%;
         border-radius: 10px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
+    }
+    
+    .socials{
+        margin-right: 0px;
+        margin-left: 0px;  
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    .socials img{
+        width: 20px;
+        cursor: pointer;
+        padding: 12px;
+        transition: all ease-in-out 0.3s;
+    }
+    .socials img:hover{
+        padding: 0px;
+    }
+    .social-wrap{
+        padding: 0px;
+        border-right: none;
     }
 }
 
@@ -1954,6 +2054,7 @@ button a:hover {
         padding-right: 8px;
         transition: all ease-in-out 0.3s;
     }
+
     .blog {
         margin-right: 0px;
         margin-left: 0px;
@@ -1962,7 +2063,9 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
-
+    .blog p {
+        font-size: 8px;
+    }
     .news {
         display: flex;
         padding: 0px;
@@ -1971,13 +2074,39 @@ button a:hover {
 
 
     .news-img {
-        width: 65%;
-        border-radius: 10px;
+        width: 55%;
+        border-radius: 5px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translateX(0%);
     }
+
     .news2-img {
-        transform: translate(-50%, -20%);
+        width: 290%;
+        border-radius: 5px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translate(-80%, -40%);
+    }
+    .socials{
+        margin-right: 0px;
+        margin-left: 0px;  
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    .socials img{
+        width: 20px;
+        cursor: pointer;
+        padding: 12px;
+        transition: all ease-in-out 0.3s;
+    }
+    .socials img:hover{
+        padding: 0px;
+    }
+    .social-wrap{
+        padding: 0px;
+        border-right: none;
     }
 }
