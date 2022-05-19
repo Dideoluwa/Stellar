@@ -14,7 +14,9 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, rgb(0, 0, 10), rgb(128, 123, 123));
+    background-image: linear-gradient(to right, rgb(0, 0,5), rgb(115, 62, 135));
+    /* background-image: linear-gradient(to right, rgb(64, 33, 125), rgb(115, 62, 135)); */
+    /* background-color:  rgb(64, 33, 125); */
     /* margin: 10px; */
     height: 100vh;
     margin-top: 0;
@@ -47,7 +49,7 @@ ul {
 ul li {
     /* float: right; */
     display: inline-block;
-    color: rgb(255, 235, 205);
+    color: white;
     list-style-type: none;
     font-size: 16px;
 }
@@ -67,7 +69,7 @@ ul li {
 }
 
 #buy {
-    border: 1px solid rgb(255, 235, 205);
+    border: 1px solid white;
     border-radius: 25px;
     padding: 8px;
 }
@@ -78,7 +80,7 @@ ul li {
 
 nav a {
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
 }
 
 /* ul li a::after{
@@ -110,7 +112,7 @@ ul li a:hover {
 #hamburger-icon div {
     width: 45px;
     height: 3px;
-    background-color: blanchedalmond;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -151,11 +153,11 @@ ul li a:hover {
 
     opacity: 1;
     background-color: black;
-    color: blanchedalmond;
+    color: white;
 }
 
 #head1 {
-    color: blanchedalmond;
+    color: white;
     font-size: 65px;
     position: relative;
     /* top: 40%; */
@@ -173,7 +175,7 @@ ul li a:hover {
 }
 
 #head1info {
-    color: blanchedalmond;
+    color: white;
     font-size: 20px;
     position: relative;
     /* top: 41%; */
@@ -190,7 +192,7 @@ button {
     border-radius: 25px;
     margin: 5px;
     /* width: 54%; */
-    color: blanchedalmond;
+    color: white;
 }
 
 .headlink:hover {
@@ -201,7 +203,7 @@ button {
 
 .headlink {
     background-color: transparent;
-    border: 1px solid blanchedalmond;
+    border: 1px solid white;
     padding: 18px;
     /* width: 13%; */
 }
@@ -214,15 +216,20 @@ button {
     color: black;
     transition: 0.3s;
 }
+.headlink:hover {
+    background-color: black;
+    border: 1px solid black;
+}
 
 button a {
-    color: blanchedalmond;
+    color: white;
     text-decoration: none;
 }
 
 button a:hover {
     color: white;
     transition: 0.3s;
+    background-color: black;
 }
 
 .mainBody {
@@ -544,30 +551,77 @@ button a:hover {
 .news1-container p {
     line-height: 1;
 }
-.socials{
+
+.socials {
     margin-right: 65px;
-    margin-left: 65px;  
+    margin-left: 65px;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
-.socials img{
+
+.socials img {
     width: 40px;
     cursor: pointer;
     padding: 25px;
     transition: all ease-in-out 0.3s;
 }
-.socials img:hover{
+
+.socials img:hover {
     padding: 28px;
     transition: all ease-in-out 0.3s;
 }
-.social-wrap{
+
+.social-wrap {
     padding: 10px;
     border-right: 1px solid gray;
 }
-#pint{
+
+#pint {
     border-right: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+.company h3 {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.company p {
+    padding: 5px;
+    color: grey;
+    cursor: pointer;
+}
+
+.company p:hover {
+    color: black;
+}
+
+input {
+    padding: 8px;
+    overflow: visibled;
+}
+
+.dev {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.dev a {
+    color: gray;
+}
+
+.dev a:hover {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 912px) {
@@ -847,7 +901,7 @@ button a:hover {
     }
 
     .careers h2 {
-        padding-top: 39px;
+        padding-top: 32px;
     }
 
     .careers p {
@@ -903,9 +957,11 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
+
     .blog p {
         font-size: 15px;
     }
+
     .news {
         display: flex;
         padding: 0px;
@@ -915,7 +971,7 @@ button a:hover {
 
     .news-img {
         width: 50%;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translateX(20%);
@@ -924,31 +980,69 @@ button a:hover {
     .news2-img {
         margin-top: 70px;
         width: 260%;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
     }
-    .socials{
+
+    .socials {
         margin-right: 0px;
-        margin-left: 0px;  
+        margin-left: 0px;
         display: flex;
         justify-content: space-around;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
     }
-    .socials img{
+
+    .socials img {
         width: 45px;
         cursor: pointer;
         padding: 12px;
         transition: all ease-in-out 0.3s;
     }
-    .socials img:hover{
+
+    .socials img:hover {
         padding: 0px;
     }
-    .social-wrap{
+
+    .social-wrap {
         padding: 0px;
         border-right: none;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .company h3 {
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: 22px;
+    }
+
+    .company p {
+        padding: 5px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .company p:hover {
+        color: black;
+    }
+
+    input {
+        padding: 8px;
+        width: 50%;
+        overflow: visibled;
+    }
+
+    .dev {
+        text-align: center;
+        margin-top: 30px;
+        color: grey;
     }
 }
 
@@ -1229,7 +1323,7 @@ button a:hover {
     }
 
     .careers h2 {
-        padding-top: 39px;
+        padding-top: 32px;
     }
 
     .careers p {
@@ -1285,9 +1379,11 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
+
     .blog p {
         font-size: 15px;
     }
+
     .news {
         display: flex;
         padding: 0px;
@@ -1296,7 +1392,7 @@ button a:hover {
 
     .news-img {
         width: 50%;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translateX(20%);
@@ -1305,31 +1401,70 @@ button a:hover {
     .news2-img {
         margin-top: 70px;
         width: 230%;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
     }
-    .socials{
+
+    .socials {
         margin-right: 0px;
-        margin-left: 0px;  
+        margin-left: 0px;
         display: flex;
         justify-content: space-around;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
     }
-    .socials img{
+
+    .socials img {
         width: 35px;
         cursor: pointer;
         padding: 12px;
         transition: all ease-in-out 0.3s;
     }
-    .socials img:hover{
+
+    .socials img:hover {
         padding: 0px;
     }
-    .social-wrap{
+
+    .social-wrap {
         padding: 0px;
         border-right: none;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .company h3 {
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: 22px;
+    }
+
+    .company p {
+        padding: 5px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .company p:hover {
+        color: black;
+    }
+
+    input {
+        padding: 8px;
+        width: 50%;
+        overflow: visibled;
+    }
+
+    .dev {
+        text-align: center;
+        margin-top: 30px;
+        color: grey;
     }
 }
 
@@ -1667,6 +1802,7 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
+
     .blog p {
         font-size: 11px;
     }
@@ -1699,27 +1835,66 @@ button a:hover {
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -20%);
     }
-    
-    .socials{
+
+    .socials {
         margin-right: 0px;
-        margin-left: 0px;  
+        margin-left: 0px;
         display: flex;
         justify-content: space-around;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
     }
-    .socials img{
+
+    .socials img {
         width: 20px;
         cursor: pointer;
         padding: 12px;
         transition: all ease-in-out 0.3s;
     }
-    .socials img:hover{
+
+    .socials img:hover {
         padding: 0px;
     }
-    .social-wrap{
+
+    .social-wrap {
         padding: 0px;
         border-right: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .company h3 {
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: 22px;
+    }
+
+    .company p {
+        padding: 5px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .company p:hover {
+        color: black;
+    }
+
+    input {
+        padding: 8px;
+        width: 50%;
+        overflow: visibled;
+    }
+
+    .dev {
+        text-align: center;
+        margin-top: 30px;
+        color: grey;
     }
 }
 
@@ -2063,9 +2238,11 @@ button a:hover {
     .blog h2 {
         padding-top: 39px;
     }
+
     .blog p {
         font-size: 8px;
     }
+
     .news {
         display: flex;
         padding: 0px;
@@ -2088,25 +2265,64 @@ button a:hover {
         transition: all ease-in-out 0.4s;
         transform: translate(-80%, -40%);
     }
-    .socials{
+
+    .socials {
         margin-right: 0px;
-        margin-left: 0px;  
+        margin-left: 0px;
         display: flex;
         justify-content: space-around;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
     }
-    .socials img{
+
+    .socials img {
         width: 20px;
         cursor: pointer;
         padding: 12px;
         transition: all ease-in-out 0.3s;
     }
-    .socials img:hover{
+
+    .socials img:hover {
         padding: 0px;
     }
-    .social-wrap{
+
+    .social-wrap {
         padding: 0px;
         border-right: none;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .company h3 {
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: 22px;
+    }
+
+    .company p {
+        padding: 5px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .company p:hover {
+        color: black;
+    }
+
+    input {
+        padding: 8px;
+        width: 50%;
+        overflow: visibled;
+    }
+
+    .dev {
+        text-align: center;
+        margin-top: 30px;
+        color: grey;
     }
 }
