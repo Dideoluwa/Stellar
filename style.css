@@ -705,7 +705,8 @@ input {
         padding: 100px;
         width: 200vh;
         opacity: 1;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
+        /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514)); */
+        background-color: black;
     }
 
     #hamburger-icon div {
@@ -1127,7 +1128,8 @@ input {
         padding: 100px;
         width: 100%;
         opacity: 1;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
+        /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514)); */
+        background-color: black;
     }
 
     #hamburger-icon div {
@@ -1550,7 +1552,7 @@ input {
         padding: 100px;
         width: 100%;
         opacity: 1;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
+        background-color: black;
     }
 
     #hamburger-icon div {
@@ -1981,7 +1983,8 @@ input {
         padding: 100px;
         width: 200vh;
         opacity: 1;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514));
+        /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(128, 123, 123, 0.514)); */
+        background-color: black;
     }
 
     #hamburger-icon div {
