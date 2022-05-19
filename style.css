@@ -1620,7 +1620,7 @@ input {
     }
 
     .firstset {
-        margin-top: 18px;
+        margin-top: 28px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1641,6 +1641,10 @@ input {
         align-items: center;
         justify-content: space-between;
         padding: 0;
+        margin-top:0px;
+    }
+    .first1{
+        margin-bottom: 42px;
     }
 
     .imgtwo {
@@ -2062,6 +2066,7 @@ input {
         /* top: 8%; */
         justify-content: space-between;
         padding: 5%;
+        margin-top: 17px;
     }
 
     .imgone {
@@ -2078,6 +2083,9 @@ input {
         /* top: 9%; */
         justify-content: space-between;
         padding: 0;
+    }
+    .first1{
+        margin-bottom: 28px;
     }
 
     .imgtwo {
