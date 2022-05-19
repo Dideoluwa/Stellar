@@ -477,6 +477,74 @@ button a:hover {
     margin-bottom: 48px;
 }
 
+.sub-lst span {
+    transition: all ease-in-out 0.3s;
+}
+
+.sub-lst span:hover {
+    padding-right: 8px;
+    transition: all ease-in-out 0.3s;
+}
+
+.blog {
+    background-color: rgb(248, 250, 251);
+    margin-right: 65px;
+    margin-left: 65px;
+}
+
+.blog h2 {
+    padding-top: 29px;
+}
+
+.news {
+    display: flex;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+
+.news-img {
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-in-out 0.4s;
+    transform: translateX(60%);
+}
+
+.news-img img {
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+
+.news-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.news2-img {
+    margin-top: 70px;
+    background-color: white;
+    width: 190%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-in-out 0.4s;
+    transform: translate(-120%, -31%);
+}
+
+.news2-img img {
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+
+.news2-img img:hover {
+    transform: scale(1.1);
+}
+
+.news1-container p {
+    line-height: 1;
+}
+
 @media screen and (max-width: 912px) {
     body {
         margin: 0;
@@ -746,6 +814,7 @@ button a:hover {
         transition: 0.4s;
         color: black;
     }
+
     .careers {
         margin-top: 0;
         margin-right: 0px;
@@ -790,6 +859,46 @@ button a:hover {
 
     .sub-lst p {
         font-size: 20px;
+    }
+
+    .sub-lst span {
+        transition: all ease-in-out 0.3s;
+    }
+
+    .sub-lst span:hover {
+        padding-right: 8px;
+        transition: all ease-in-out 0.3s;
+    }
+    .blog {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .blog h2 {
+        padding-top: 39px;
+    }
+
+    .news {
+        display: flex;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+
+    .news-img {
+        width: 50%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translateX(20%);
+    }
+    .news2-img {
+        margin-top: 70px;
+        width: 260%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translate(-80%, -20%);
     }
 }
 
@@ -1062,6 +1171,7 @@ button a:hover {
         transition: 0.4s;
         color: black;
     }
+
     .careers {
         margin-top: 0;
         margin-right: 0px;
@@ -1106,6 +1216,46 @@ button a:hover {
 
     .sub-lst p {
         font-size: 17px;
+    }
+
+    .sub-lst span {
+        transition: all ease-in-out 0.3s;
+    }
+
+    .sub-lst span:hover {
+        padding-right: 8px;
+        transition: all ease-in-out 0.3s;
+    }
+    .blog {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .blog h2 {
+        padding-top: 39px;
+    }
+
+    .news {
+        display: flex;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+
+    .news-img {
+        width: 50%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translateX(20%);
+    }
+    .news2-img {
+        margin-top: 70px;
+        width: 230%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translate(-80%, -20%);
     }
 }
 
@@ -1426,6 +1576,51 @@ button a:hover {
         font-size: 12px;
     }
 
+    .sub-lst span {
+        transition: all ease-in-out 0.3s;
+    }
+
+    .sub-lst span:hover {
+        padding-right: 8px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .blog {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .blog h2 {
+        padding-top: 39px;
+    }
+
+    .news {
+        display: flex;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+
+    .news-img {
+        width: 50%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translateX(20%);
+    }
+
+    .news-img img {
+        transition: all ease-in-out 0.4s;
+        width: 100%;
+    }
+    .news2-img {
+        margin-top: 70px;
+        width: 190%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translate(-80%, -20%);
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -1704,6 +1899,7 @@ button a:hover {
         transition: 0.4s;
         color: black;
     }
+
     .careers {
         margin-top: 0;
         margin-right: 0px;
@@ -1748,5 +1944,40 @@ button a:hover {
 
     .sub-lst p {
         font-size: 12px;
+    }
+
+    .sub-lst span {
+        transition: all ease-in-out 0.3s;
+    }
+
+    .sub-lst span:hover {
+        padding-right: 8px;
+        transition: all ease-in-out 0.3s;
+    }
+    .blog {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .blog h2 {
+        padding-top: 39px;
+    }
+
+    .news {
+        display: flex;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+
+    .news-img {
+        width: 65%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        transform: translateX(0%);
+    }
+    .news2-img {
+        transform: translate(-50%, -20%);
     }
 }
