@@ -110,7 +110,7 @@ ul li a:hover {
 }
 
 #hamburger-icon div {
-    width: 45px;
+    /* width: 45px */
     height: 3px;
     background-color: white;
     margin: 6px 0;
@@ -120,10 +120,15 @@ ul li a:hover {
 #hamburger-icon div .open {
     display: block;
 }
-
+.bar1{
+    width: 30px;
+}
+.bar2{
+    width: 30px;
+}
 .open .bar1 {
-    -webkit-transform: rotate(-135deg) translate(-4px, 6px);
-    transform: rotate(-45deg) translate(-4px, 6px);
+    -webkit-transform: rotate(-135deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-8px, 7px);
 }
 
 .open .bar2 {
@@ -131,8 +136,8 @@ ul li a:hover {
 }
 
 .open .bar3 {
-    -webkit-transform: rotate(135deg) translate(-4px, 6px);
-    transform: rotate(45deg) translate(-4px, 6px);
+    -webkit-transform: rotate(135deg) translate(-6px, 8px);
+    transform: rotate(45deg) translate(-6px, -4px);
 }
 
 .open .mobile-menu {
@@ -146,9 +151,9 @@ ul li a:hover {
 .mobile-menu {
     display: none;
     position: fixed;
-    right: 25%;
+    /* right: 25%; */
     z-index: 1;
-    height: 60vh;
+    height: 70vh;
     padding: 100px;
 
     opacity: 1;
@@ -701,7 +706,7 @@ input {
         position: fixed;
         right: 0%;
         z-index: 1;
-        height: 70vh;
+        /* height: 70vh; */
         padding: 100px;
         width: 200vh;
         opacity: 1;
@@ -709,13 +714,7 @@ input {
         background-color: black;
     }
 
-    #hamburger-icon div {
-        width: 45px;
-        height: 3px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+
 
     ul li a {
         color: rgb(255, 235, 205);
@@ -1132,13 +1131,6 @@ input {
         background-color: black;
     }
 
-    #hamburger-icon div {
-        width: 45px;
-        height: 3px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
 
     ul li a {
         color: rgb(255, 235, 205);
@@ -1548,20 +1540,14 @@ input {
         /* top: 5%; */
         right: 0%;
         /* z-index: 1; */
-        height: 70vh;
+        /* height: 70vh; */
         padding: 100px;
         width: 100%;
         opacity: 1;
         background-color: black;
     }
 
-    #hamburger-icon div {
-        width: 40px;
-        height: 3px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+    
 
     ul li a {
         color: rgb(255, 235, 205);
@@ -1983,7 +1969,7 @@ input {
         /* top: 5%; */
         right: 0%;
         z-index: 1;
-        height: 70vh;
+        /* height: 70vh; */
         padding: 100px;
         width: 200vh;
         opacity: 1;
@@ -1991,13 +1977,6 @@ input {
         background-color: black;
     }
 
-    #hamburger-icon div {
-        width: 35px;
-        height: 3px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
 
     ul li a {
         color: rgb(255, 235, 205);
