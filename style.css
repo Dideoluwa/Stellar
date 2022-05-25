@@ -647,7 +647,6 @@ input {
 
     #hamburger-icon {
         display: flex;
-        
         justify-content: space-between;
         color: white;
     }
@@ -1567,21 +1566,21 @@ input {
 
     #head1 {
         font-size: 50px;
-        left: 12%;
+        left: 9%;
     }
 
     #head1info {
-        left: 10%;
+        left: 7%;
         font-size: 17px;
     }
 
     .headlink {
-        left: 13%;
+        left: 11%;
         width: 250px;
     }
 
     .headlink2 {
-        left: 13%;
+        left: 11%;
         width: 250px;
     }
 
@@ -1996,23 +1995,23 @@ input {
 
     #head1 {
         font-size: 30px;
-        left: 12%;
+        left: 7%;
     }
 
     #head1info {
-        left: 10%;
+        left: 5%;
         font-size: 13px;
         margin-bottom: 18px;
     }
 
     .headlink {
-        left: 10%;
+        left: 4%;
         width: 250px;
         font-size: 12px;
     }
 
     .headlink2 {
-        left: 10%;
+        left: 4%;
         width: 250px;
         font-size: 12px;
     }
