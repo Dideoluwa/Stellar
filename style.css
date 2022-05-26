@@ -97,9 +97,13 @@ ul li a:hover {
 #logo {
     font-size: 25px;
     font-weight: bold;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+}
+nav div{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hamburger-icon {
