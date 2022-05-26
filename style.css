@@ -622,8 +622,13 @@ footer {
 input {
     padding: 8px;
     overflow: visibled;
+    width: 60%;
 }
-
+.icon-rtl {
+    padding-right: 25px;
+    background: url("right-arrow\ \(1\).png") no-repeat right;
+    background-size: 30px;
+  }
 .dev {
     text-align: center;
     margin-top: 24px;
